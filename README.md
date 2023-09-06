@@ -200,3 +200,49 @@ Skriv noget her
 </details>
 
 #### Øvelse 9: Kopier en fil
+<details><summary>
+Anvendte endpoint (url) og HTTP-verb du har brugt:
+</summary>
+POST https://api.dropboxapi.com/2/files/copy_v2
+        
+Request i Body:
+
+{
+    "allow_ownership_transfer": false,
+    "allow_shared_folder": false,
+    "autorename": false,
+    "from_path": "/TestMappe2/teest.docx",
+    "to_path": "/TestMappe/teest.docx"
+}
+
+Response - status: 200 OK:
+
+{
+    "metadata": {
+        ".tag": "file",
+        "name": "teest.docx",
+        "path_lower": "/testmappe/teest.docx",
+        "path_display": "/TestMappe/teest.docx",
+        "id": "id:sIm5-l55P_8AAAAAAAAADg",
+        "client_modified": "2023-09-06T12:14:25Z",
+        "server_modified": "2023-09-06T15:14:13Z",
+        "rev": "01604b2323db152000000010d0729a1",
+        "size": 11967,
+        "is_downloadable": true,
+        "content_hash": "6d912025e951dce0dba20f8d3298d08aadbc7e83d05fdb0fda97d68513dd702a"
+    }
+}
+
+Resultat
+| Kopiret teest.docx fra TestMappe2             | Til TestMappe                                      |
+| --------------------------------------------- | --------------------------------------------- |
+| ![billede1](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/e0f72e85-b8ed-4277-bdb3-7c07831eb283) | ![billede2](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/d0b4470f-5299-43bf-9017-1ba8fef787a2) |
+</details>
+
+<details><summary>
+Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
+</summary>
+Skriv noget her
+</details>
+
+#### Øvelse 10: Brug JavaScript's Fetch med Dropbox API

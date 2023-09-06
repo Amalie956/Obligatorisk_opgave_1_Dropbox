@@ -170,7 +170,13 @@ Anvendte endpoint (url) og HTTP-verb du har brugt:
 </summary>
 POST https://api.dropboxapi.com/2/files/move_v2
         
-Request i Body:{ "path": "/TestMappe/teest.docx"}
+Request i Body:
+
+{"allow_ownership_transfer": false,
+    "allow_shared_folder": false,
+    "autorename": false,
+    "from_path": "/TestMappe/teest.docx",
+    "to_path": "/TestMappe2/teest.docx"}
 
 Response - status: 200 OK:
 {
@@ -192,3 +198,5 @@ Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i 
 </summary>
 Skriv noget her
 </details>
+
+#### Øvelse 9: Kopier en fil

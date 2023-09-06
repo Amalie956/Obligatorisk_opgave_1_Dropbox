@@ -113,3 +113,26 @@ Resultat
 ![billede](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/52f68b84-a6a8-421e-8aae-8dcc335ab729)
 
 </details>
+
+#### Øvelse 5: Slet en fil
+<details><summary>
+Anvendte endpoint (url), HTTP-verb og stien på den fil, du har slettet:
+</summary>
+POST https://api.dropboxapi.com/2/files/delete_v2
+        
+Body:{ "path": "/TestMappe/Test.docx"}
+
+Sti: "/TestMappe/Test.docx"
+
+Resultat (Test.docx er fjernet)
+![billede](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/84d4a84e-b048-4cbf-8c04-73a86fbc5884)
+
+</details>
+
+<details><summary>
+Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
+</summary>
+Skriv noget her
+</details>
+
+#### Øvelse 7: Søg efter filer

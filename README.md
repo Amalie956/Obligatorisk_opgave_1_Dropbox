@@ -258,5 +258,7 @@ Se html og javaScript koden
 Beskriv hvad du tænker om API´et i forhold til REST “constraints”. 
 Hvordan er det i feks. i forhold til “Uniform Interface” og hvad gør det for din oplevelse af at bruge API´et?
 </summary>
-Min oplevelser er, at jeg forventer at skulle bruge http protokollen DELETE, hvis jeg skal slette noget og ikke POST. Derfor vil jeg sige, API'et ikke lever op til RESTful principperne.
+Min oplevelser er, at jeg forventer at skulle bruge http protokollen DELETE, hvis jeg skal slette noget og ikke POST. Derfor vil jeg sige, API'et ikke lever op til de arkitektoniske begrænsninger som fx Uniform Interface som (forkerte status koder (Øvelse 7), http protokoller (øvelse 3, øvelse 5, øvelse 7 og øvelse 8)
+
+
 </details>

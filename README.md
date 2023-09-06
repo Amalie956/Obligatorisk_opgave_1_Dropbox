@@ -68,11 +68,29 @@ skriv svaret her
 <details><summary>
 Anvendte endpoint (url) og HTTP-verb du har brugt:
 </summary>
-skriv svaret her
+POST https://content.dropboxapi.com/2/files/upload/
 </details>
 
 <details><summary>
 Hvordan man oploader en fil
 </summary>
-skriv svaret her
+        
+*Tilføj ny key og value i din header*
+
+Dropbox-API-Arg : {"autorename":false,"mode":"add","mute":false,"path":"/TestMappe/Test.docx","strict_conflict":false}
+
+ *Vælg din ønskede fil*   
+* `Postman`
+* `Body`
+* `Setting` (øverst højre hjørne)
+* `Choose` "Working directory"
+* `Select`(vælg den mappe, hvor du har din fil, du vil uploade)
+* `Tryk kryds`
+* `Body`
+* `Select fil` (vælg filen i den mappe, du valgte i "working directory")
+* `Send`
+
+Resultat
+![billede](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/52f68b84-a6a8-421e-8aae-8dcc335ab729)
+
 </details>

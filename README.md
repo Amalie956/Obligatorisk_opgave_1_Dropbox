@@ -42,7 +42,7 @@ svar fra api'en: `{"metadata": {
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-skriv svaret her
+Det er i overenstemmelse, da POST = opret mappe
 </details>
 
 
@@ -81,7 +81,7 @@ Status kode: 200 OK
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-skriv svaret her
+POST er ikke i overenstemmelse, da man skal bruge GET = hente noget
 </details>
 
 #### Øvelse 4: Upload en fil
@@ -133,7 +133,7 @@ Resultat (Test.docx er fjernet)
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-Skriv noget her
+POST er ikke i overenstemmelse, da man skal bruge DELETE = slette noget
 </details>
 
 #### Øvelse 7: Søg efter filer
@@ -162,7 +162,7 @@ Response - status: 200 OK:
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-Skriv noget her
+POST er ikke i overenstemmelse, da man skal bruge GET = hente noget
 </details>
 
 #### Øvelse 8: Flyt en fil
@@ -197,7 +197,7 @@ Response - status: 200 OK:
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-Skriv noget her
+POST er ikke i overenstemmelse, da man skal bruge PUT = opdatere noget
 </details>
 
 #### Øvelse 9: Kopier en fil
@@ -243,7 +243,7 @@ Resultat
 <details><summary>
 Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
 </summary>
-Skriv noget her
+Hmm. Man kan både bruge POST og PUT. På den ene side opretter man en ny fil, på den anden side opdatere man en ny fil i en anden mappe?
 </details>
 
 #### Øvelse 10: Brug JavaScript's Fetch med Dropbox API
@@ -258,5 +258,5 @@ Se html og javaScript koden
 Beskriv hvad du tænker om API´et i forhold til REST “constraints”. 
 Hvordan er det i feks. i forhold til “Uniform Interface” og hvad gør det for din oplevelse af at bruge API´et?
 </summary>
-Skriv noget her
+Min oplevelser er, at jeg forventer at skulle bruge http protokollen DELETE, hvis jeg skal slette noget og ikke POST. Derfor vil jeg sige, API'et ikke lever op til RESTful principperne.
 </details>

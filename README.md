@@ -120,7 +120,7 @@ Anvendte endpoint (url), HTTP-verb og stien på den fil, du har slettet:
 </summary>
 POST https://api.dropboxapi.com/2/files/delete_v2
         
-Body:{ "path": "/TestMappe/Test.docx"}
+Request i Body:{ "path": "/TestMappe/Test.docx"}
 
 Sti: "/TestMappe/Test.docx"
 
@@ -136,3 +136,59 @@ Skriv noget her
 </details>
 
 #### Øvelse 7: Søg efter filer
+<details><summary>
+Anvendte endpoint (url) og HTTP-verb du har brugt:
+</summary>
+POST https://api.dropboxapi.com/2/files/search_v2
+        
+Request i Body:{ "path": "/TestMappe/teest.docx"}
+
+Response - status: 200 OK:
+{
+    "match_field_options": {
+        "include_highlights": false
+    },
+    "options": {
+        "file_status": "active",
+        "filename_only": false,
+        "max_results": 20,
+        "path": "/TestMappe"
+    },
+    "query": "teest"
+}
+</details>
+
+<details><summary>
+Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
+</summary>
+Skriv noget her
+</details>
+
+#### Øvelse 8: Flyt en fil
+<details><summary>
+Anvendte endpoint (url) og HTTP-verb du har brugt:
+</summary>
+POST https://api.dropboxapi.com/2/files/move_v2
+        
+Request i Body:{ "path": "/TestMappe/teest.docx"}
+
+Response - status: 200 OK:
+{
+    "match_field_options": {
+        "include_highlights": false
+    },
+    "options": {
+        "file_status": "active",
+        "filename_only": false,
+        "max_results": 20,
+        "path": "/TestMappe"
+    },
+    "query": "teest"
+}
+</details>
+
+<details><summary>
+Beskriv om dette flow er i overenstemmelse med princippet "uniform interface" i REST principperne, og hvis ikke hvad kunne gøres bedre?
+</summary>
+Skriv noget her
+</details>

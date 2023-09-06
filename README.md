@@ -1,3 +1,7 @@
+Dokumentation der er blevet brugt i opgaverne: 
+
+https://www.dropbox.com/developers/documentation/http/documentation#sharing-list_folders
+
 # Obligatorisk_opgave_1_Dropbox 
 #### Øvelse 1: Opsætning
 <details><summary>

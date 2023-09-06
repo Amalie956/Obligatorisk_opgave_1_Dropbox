@@ -1,21 +1,24 @@
 # Obligatorisk_opgave_1_Dropbox 
 #### Øvelse 1: Opsætning
 <details><summary>
-Opsætning
+Generer Token
 </summary>
-Generer en “Access Token”
-
 [Hjemmeside](https://www.dropbox.com/developers/apps) -> permissions -> OAuth 2 -> Generated access token
-
+</details>
+<details><summary>
+Header og Body
+</summary>
 Header
         
 ![billede](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/e7f51b55-40b2-4688-b105-72a80fbe158f)
 
 Body
 ![billede](https://github.com/Amalie956/Obligatorisk_opgave_1_Dropbox/assets/112120321/d44b54b9-f3ec-4872-853b-0a5a08eb2459)
-
-
 </details>
+
+
+
+
 
 #### Øvelse 2: Opret en mappe
 <details><summary>

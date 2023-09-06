@@ -17,9 +17,6 @@ Body
 </details>
 
 
-
-
-
 #### Øvelse 2: Opret en mappe
 <details><summary>
 Anvendte endpoint (url) og HTTP-verb du har brugt:
@@ -246,3 +243,16 @@ Skriv noget her
 </details>
 
 #### Øvelse 10: Brug JavaScript's Fetch med Dropbox API
+<details><summary>
+I dit repository inkluder den JavaScript-kode og html, du har skrevet
+</summary>
+Se html og javaScript koden
+</details>
+
+#### Øvelse 11: Er https://api.dropboxapi.com/2/ Restfull or not?
+<details><summary>
+Beskriv hvad du tænker om API´et i forhold til REST “constraints”. 
+Hvordan er det i feks. i forhold til “Uniform Interface” og hvad gør det for din oplevelse af at bruge API´et?
+</summary>
+Skriv noget her
+</details>
